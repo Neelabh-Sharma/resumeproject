@@ -1,0 +1,214 @@
+/* genernal tags css  */
+h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #fff;
+    box-sizing: border-box;
+}
+/* h1,h2,h3,h4,h5,h6{
+    color: #fff;
+} */
+
+/*
+    main css file 
+    This is home section css start form here
+ */
+
+.main-section{
+    width: 100%;
+    height: 90vh;
+    /* border: 2px solid white; */
+     padding: 5px;
+}
+.main-section-text{
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    /* border: 2px solid white; */
+    vertical-align: top;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 6vw;
+}
+.main-section-img{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid white; */
+    margin-left: -1vh;
+}
+.main-section-img img{
+    margin-top: -5vh;
+    /* background-attachment: fixed; */
+}
+#name{
+    color: #fff;
+    font-weight: 900;
+    font-size: 4rem;
+}
+#pssn{
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: -5vh;
+}
+.btn-hire{
+    font-family: "Poppins", Arial, sans-serif;
+    border-radius: 2rem;
+    height: 7.5vh;
+    width: 9vw;
+    background-color: #ffbd39;
+    border:1px solid #ffbd39 !important;
+    color: #000000 !important;
+}
+.btn-hire:hover{
+    background-color: #ffaf0e;
+}
+.btn-work{
+    font-family: "Poppins", Arial, sans-serif;
+    border-radius: 2rem;
+    height: 7.5vh;
+    width: 9vw;
+    background-color: #000000;
+    border:1px solid #fff !important;
+    color: #fff;
+
+}
+.btn-work:hover{
+   
+    color: #ffaf0e;
+    transition-duration: 1s;
+}
+/* End of home section  */
+
+/*
+    This is about section 
+ */
+.main-about{
+    /* border: 2px solid white; */
+    margin-left: 10vw;
+    width: 70vw;
+    height: 85vh;
+}
+.main-about-img{
+    /* border: 2px solid white; */
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.main-about-text{
+    /* border: 2px solid white; */
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    vertical-align: top;
+    /* text-align: center; */
+    color: #999999;
+}
+#about-img{
+    margin-top:  -10vh;
+}
+.main-about-text p{
+    margin-top: -5vh;
+}
+.main-about-text strong{
+    color: #fff;
+}
+
+/* end of about section */
+
+
+
+/* This is educatiion section css */
+.education-title{
+    text-align: center;
+}
+.main-education{
+    width: 90%;
+    height: 100vh;
+    border: 3px solid white;
+    margin-left: 5vw;
+    position: relative;
+    /* display: flex; */
+}
+.main-education-item{
+    position: relative;
+    border: 2px solid white;
+    width: 40%;
+    height: 22vh;
+    margin: 10px;
+}
+.main-education-item:nth-child(2n+1){
+    left: 5%;
+}
+.main-education-item:nth-child(2n){
+    left: 53%;
+}
+/* .main-education-item:nth-child(2n+1)::after{
+    content: '';
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    right: -24%;
+}
+.main-education-item:nth-child(2n)::after{
+    content: '';
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: -10.2%;
+} */
+.timeline{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px solid #ffaf0e;
+    top : 10%;
+    left: 50%;
+}
+.timelinetraveller{
+        position: sticky;
+        top: 25%;
+        color: #ffaf0e;
+        transform:rotate(90deg);
+}
+/* ending the education section css */
+
+/* This is skills section css */
+.main-skills{
+    width: 90%;
+    height: 80vh;
+    margin-left: 5vw;
+    border: 3px solid white;
+}
+.main-heading{
+   text-align: center;
+}
+.main-skills-item{
+  width: 40%;
+  height: 20%;
+  display: inline-block;
+  border: 3px solid white;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+/* end the css */
+
+/* staring project section */
+.main-projects{
+    width: 80vw;
+    height: 75vh;
+    margin-top: 8vh;
+    margin-left: 9vw;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh;
+    border: 2px solid white;
+}
+/* end of projects section */
