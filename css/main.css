@@ -5,9 +5,9 @@ h1{
     color: #fff;
     box-sizing: border-box;
 }
-/* h1,h2,h3,h4,h5,h6{
+h2,h3,h4,h5,h6,p{
     color: #fff;
-} */
+}
 
 /*
     main css file 
@@ -99,7 +99,7 @@ h1{
 .main-about-text{
     /* border: 2px solid white; */
     display: inline-block;
-    width: 45%;
+    width: 48%;
     height: 100%;
     vertical-align: top;
     /* text-align: center; */
@@ -126,14 +126,14 @@ h1{
 .main-education{
     width: 90%;
     height: 100vh;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     margin-left: 5vw;
     position: relative;
     /* display: flex; */
 }
 .main-education-item{
     position: relative;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 40%;
     height: 22vh;
     margin: 10px;
@@ -178,37 +178,124 @@ h1{
         color: #ffaf0e;
         transform:rotate(90deg);
 }
+#logo-img{
+    width: 20%;
+    height: 60%;
+    display: inline-block;
+}
+#logo-img img{
+    width: 100%;
+    height: 100%;
+}
+#text{
+    width: 76%;
+    height: 90%;
+    display: inline-block;
+}
 /* ending the education section css */
 
 /* This is skills section css */
 .main-skills{
     width: 90%;
-    height: 80vh;
-    margin-left: 5vw;
-    border: 3px solid white;
+    height: 60vh;
+    margin-left: 5%;
+    /* border: 3px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .main-heading{
    text-align: center;
 }
+.skill-box{
+    /* border: 2px solid white; */
+    width: 40vw;
+    height: 4rem;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#skill-title{
+    margin-top: 10px;
+    margin-left: 24px;
+}
 .main-skills-item{
-  width: 40%;
-  height: 20%;
-  display: inline-block;
-  border: 3px solid white;
-  margin-left: 4%;
-  margin-top: 1%;
+   width: 35vw;
+   height: 1rem;
+   border-radius: 0.8rem;
+   margin-top: -20px;
+   margin-left: 20px;
+   background-color: #1a1a1a;
+}
+.percentage-java{
+    width: 80%;
+    height: 100%;
+    background-color: #ffaf0e;
+}
+.percentage-html{
+    width: 85%;
+    height: 100%;
+    background-color: #ffaf0e;
+}
+.percentage-css{
+    width: 75%;
+    height: 100%;
+    background-color: #ffaf0e;
+}
+.percentage-jquery{
+    width: 70%;
+    height: 100%;
+    background-color: #ffaf0e;
+}
+.percentage-node{
+    width: 80%;
+    height: 100%;
+    background-color: #ffaf0e;
+}
+.percentage-react{
+    width: 70%;
+    height: 100%;
+    background-color: #ffaf0e;
+}
+.percentage-mongodb{
+    width: 80%;
+    height: 100%;
+    background-color: #ffaf0e;
+}
+.percentage-python{
+    width: 90%;
+    height: 100%;
+    background-color: #ffaf0e;
 }
 /* end the css */
 
 /* staring project section */
-.main-projects{
-    width: 80vw;
-    height: 75vh;
-    margin-top: 8vh;
-    margin-left: 9vw;
+.project-title{
+    text-align: center;
+}
+.projects{
+    width: 90%;
+    height: 100vh;
+    margin-left: 5%;
+    /* border: 3px solid white; */
+    
+}
+.project-list{
+    width: 100%;
+    height: 73%;
+    /* border: 3px solid white; */
     display: flex;
-    flex-direction: row;
-    padding: 2vh;
-    border: 2px solid white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#project{
+    width:48%;
+    height: 45%;
+    /* border: 2px solid white; */
+}
+#project img{
+    width: 100%;
+    height: 100%;
 }
 /* end of projects section */
+
+
