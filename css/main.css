@@ -3,6 +3,7 @@ h1{
     font-size: 3.5rem;
     font-weight: 900;
     color: #fff;
+    text-align: center;
     box-sizing: border-box;
 }
 h2,h3,h4,h5,h6,p{
@@ -50,13 +51,13 @@ h2,h3,h4,h5,h6,p{
     color: #fff;
     font-weight: 500;
     font-size: 2rem;
-    margin-top: -5vh;
+    margin-top: -2rem;
 }
 .btn-hire{
     font-family: "Poppins", Arial, sans-serif;
     border-radius: 2rem;
-    height: 7.5vh;
-    width: 9vw;
+    height: 2.9rem;
+    width: 7.5rem;
     background-color: #ffbd39;
     border:1px solid #ffbd39 !important;
     color: #000000 !important;
@@ -67,8 +68,8 @@ h2,h3,h4,h5,h6,p{
 .btn-work{
     font-family: "Poppins", Arial, sans-serif;
     border-radius: 2rem;
-    height: 7.5vh;
-    width: 9vw;
+    height: 2.9rem;
+    width: 7.5rem;
     background-color: #000000;
     border:1px solid #fff !important;
     color: #fff;
@@ -113,6 +114,9 @@ h2,h3,h4,h5,h6,p{
 }
 .main-about-text strong{
     color: #fff;
+}
+.main-about-text h4{
+    color:#999999;
 }
 
 /* end of about section */
@@ -298,4 +302,71 @@ h2,h3,h4,h5,h6,p{
 }
 /* end of projects section */
 
+/* media query for max-width: 572px */
+@media only screen and (max-width: 500px){
+    /* main section */
+    .main-section{
+        height: 53rem;
+    }
+    .main-section-img{
+        display: none;
+    }
+    .main-section-text{
+        width: 90%;
+        height: 70%;
+        margin-top: 20vh;
+    }
+    #name{
+        font-size: 2.5rem;
+        margin-top: 20vh;
+    }
+    #pssn{
+        font-size: 2.1rem;
+    }
+    br{
+        display: none;
+    }
+    .btn-hire{
+        width: 6rem;
+    }
+    .btn-work{
+        width: 6rem; ;
+    }
+    /* about section */
+    .main-about{
+        margin: 0;
+        width: 85vw;
+        height: 90vh;
+    }
+    .main-about-img{
+        display: none;
+    }
+    .main-about-text{
+        width: 100%;
+        font-size: 1rem;
+    }
+    #about-para{
+        display: none;
+    }
+    #about-heading{
+        text-align: left;
+    }
+    /* education */
+    .education-title h1{
+        text-align: left;
+    }
+    .timeline{
+        display: none;
+    }
+    .main-education-item:nth-child(2n+1){
+        left: 0;
+    }
+    .main-education-item:nth-child(2n){
+        left: 0;
+    }
+    .main-education-item p{
+        display: none;
+    }
+    
 
+}

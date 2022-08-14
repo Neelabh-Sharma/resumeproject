@@ -9,7 +9,7 @@ body{
     color: #fff;
     display: inline;
     font-weight: 900;
-    font-size: 3.5vh;
+    font-size: 2vw;
     text-transform: uppercase;
     padding: 5vh 6vw;
 }
@@ -48,4 +48,23 @@ a{
 }
 #main-header-item ul a{
     text-decoration: none;
+}
+@media only screen and (max-width: 572px){
+    #main-header-item{
+        display: none;
+    }
+    #main-header-logo{
+        font-size: 1rem;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #main-header-item{
+        display: none;
+    }
+    #main-header-logo{
+        font-size: 1rem;
+        padding-left: 0;
+    }
 }
